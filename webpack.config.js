@@ -6,11 +6,19 @@ module.exports = {
     entry: './src/index.js',
     output:{
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        publicPath:'/',
     },
     mode:'development',
     resolve: {
-        extensions: ['.js', '.jsx', '.ts']
+        extensions: ['.js', '.jsx', '.ts'],
+        alias:{
+            '@components': path.resolve(__dirname, 'src/components'),
+            '@containers': path.resolve(__dirname, 'src/containers'),
+            '@style': path.resolve(__dirname, 'src/styles'),
+            '@icons': path.resolve(__dirname, 'src/assets/icons'),
+            '@logos': path.resolve(__dirname, 'src/assets/logos')
+        }
     },
     module:{
         rules:[
@@ -48,5 +56,8 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			filename: '[name].css'
 		}),
-    ]
+    ],
+    devServer:{
+        historyApiFallback: true
+    }
 }
