@@ -1,0 +1,42 @@
+@import 'vars';
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-center{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar-rigth{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.list-item{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: var(--oragen);
+}
+
+.header-link{
+    background-color: var(--oragen);
+    border-radius: 5px;
+    height: 2vh;
+    font-weight: 600;
+}
+
+.header-link a {
+    color: var(--white);
+}
