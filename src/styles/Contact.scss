@@ -1,0 +1,86 @@
+@import 'vars';
+
+
+.Contact{
+    place-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.content-sales{
+    width: 40%;
+}
+
+.content-technical{
+    width: 40%;
+}
+
+.Content-flex{
+    border: 3px solid var(--oragen);
+    padding: 20px;
+}
+
+.Content-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 3;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-input{
+    width: 200px;
+    border: 2px solid var(--oragen);
+    height: 3vh;
+    padding: 0;
+    margin: 0;
+}
+
+.text-textarea{
+    border: 2px solid var(--oragen);
+    height: 9vh;
+}
+
+.btn-send{
+    background-color: var(--oragen);
+    color: var(--black);
+    border-radius: var(--border);
+    border: 1px solid var(--oragen);
+    font-weight: 900;
+    font-size: 17px;
+    width: 7rem;
+    padding: 7px;
+}
+
+.select-type{
+    background-color: var(--white);
+    border: 2px solid var(--oragen);
+}
+
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-form div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex-row-tow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
