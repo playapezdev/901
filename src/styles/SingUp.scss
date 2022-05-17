@@ -1,0 +1,20 @@
+.form-General {
+  width: 600px;
+  height: 410px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  cursor: pointer;
+  background: #f3a925;
+  border-radius: 23px;
+}
+.form-principio {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+.form-bloques {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
