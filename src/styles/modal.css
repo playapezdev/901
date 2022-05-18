@@ -1,0 +1,146 @@
+.content-model{
+background: #fcfbfa;
+
+border:1px solid gray;
+width: 350px;
+height: 250px;
+padding: 20px;
+border-radius: 5px;
+margin-left: 450px;
+margin-top: -10px;
+}
+.grid-form{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: minmax(100px, auto);
+
+    
+}
+
+.form-modal{
+    font-size: 17px;
+
+}
+
+.grid-form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.select-modal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left:105px;
+
+}
+.text-input-modal{
+    width: 35%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn-guardar{
+    padding: 1em;
+    width: 25%;
+    margin-left: 132px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color:  #fff;
+    background-color: #E34E31;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.btn-guardar:hover{
+background-color:  #CE472D;
+box-shadow: 0px 15px 20px rgba(423, 114, 78, 0.8);
+color: #F3F2F2;
+transform: translateY(-7px);
+}
+.btn-guardar:active{
+transform: translateY(-1px);
+}
+
+.btn-validar{
+    padding: 1em;
+    width: 25%;
+    margin-left: 132px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color:  #fff;
+    background-color: #E34E31;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.btn-validar:hover{
+background-color:  #CE472D;
+box-shadow: 0px 15px 20px rgba(423, 114, 78, 0.8);
+color: #F3F2F2;
+transform: translateY(-7px);
+}
+.btn-validar:active{
+transform: translateY(-1px);
+}
+
+.btn-agregar{
+    width: 3rem;
+    background-color: #E34E31;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+
+}
+
+.grid-col-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.grid-col-two{
+    width: 100%;
+}
+
+.btn-in{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: 0;
+}
+.grid-content{
+margin-top: 10px;
+}
+
+.text-link{
+    text-decoration: none;
+    cursor: pointer;
+    color:#F3A925;
+    margin-left: 750px;
+}
